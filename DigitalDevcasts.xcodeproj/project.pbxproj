@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DFC64257297E55502663104 /* Pods_DigitalDevcasts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87839FCBB08F650635E687 /* Pods_DigitalDevcasts.framework */; };
+		D5291E541CC5E966001807B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E531CC5E966001807B3 /* AppDelegate.swift */; };
+		D5291E5C1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5291E5A1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld */; };
+		D5291E5E1CC5E966001807B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5291E5D1CC5E966001807B3 /* Assets.xcassets */; };
+		D5291E611CC5E966001807B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5291E5F1CC5E966001807B3 /* LaunchScreen.storyboard */; };
+		D5291E771CC5EBE8001807B3 /* gotham-rounded-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5291E731CC5EBE8001807B3 /* gotham-rounded-bold.otf */; };
+		D5291E781CC5EBE8001807B3 /* gotham-rounded-book.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5291E741CC5EBE8001807B3 /* gotham-rounded-book.otf */; };
+		D5291E791CC5EBE8001807B3 /* gotham-rounded-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5291E751CC5EBE8001807B3 /* gotham-rounded-light.otf */; };
+		D5291E7A1CC5EBE8001807B3 /* gotham-rounded-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5291E761CC5EBE8001807B3 /* gotham-rounded-medium.otf */; };
+		D5291E7D1CC5ECD2001807B3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E7C1CC5ECD2001807B3 /* Global.swift */; };
+		D5291E801CC5EEB9001807B3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E7F1CC5EEB9001807B3 /* BaseViewController.swift */; };
+		D5291E821CC5EFBD001807B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E811CC5EFBD001807B3 /* HomeViewController.swift */; };
+		D5291E841CC5F714001807B3 /* Weater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E831CC5F714001807B3 /* Weater.swift */; };
+		D5291E881CC5FAB9001807B3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E871CC5FAB9001807B3 /* FirstViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		075E83933A6162E6AC9B7B61 /* Pods-DigitalDevcasts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalDevcasts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalDevcasts/Pods-DigitalDevcasts.debug.xcconfig"; sourceTree = "<group>"; };
+		8C048BC6A273F9093B5ED965 /* Pods-DigitalDevcasts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalDevcasts.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalDevcasts/Pods-DigitalDevcasts.release.xcconfig"; sourceTree = "<group>"; };
+		BE87839FCBB08F650635E687 /* Pods_DigitalDevcasts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalDevcasts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5291E501CC5E965001807B3 /* DigitalDevcasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalDevcasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5291E531CC5E966001807B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5291E5B1CC5E966001807B3 /* DigitalDevcasts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigitalDevcasts.xcdatamodel; sourceTree = "<group>"; };
+		D5291E5D1CC5E966001807B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5291E601CC5E966001807B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5291E621CC5E966001807B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5291E731CC5EBE8001807B3 /* gotham-rounded-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "gotham-rounded-bold.otf"; path = "Assets/Fonts/gotham/gotham-rounded-bold.otf"; sourceTree = "<group>"; };
+		D5291E741CC5EBE8001807B3 /* gotham-rounded-book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "gotham-rounded-book.otf"; path = "Assets/Fonts/gotham/gotham-rounded-book.otf"; sourceTree = "<group>"; };
+		D5291E751CC5EBE8001807B3 /* gotham-rounded-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "gotham-rounded-light.otf"; path = "Assets/Fonts/gotham/gotham-rounded-light.otf"; sourceTree = "<group>"; };
+		D5291E761CC5EBE8001807B3 /* gotham-rounded-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "gotham-rounded-medium.otf"; path = "Assets/Fonts/gotham/gotham-rounded-medium.otf"; sourceTree = "<group>"; };
+		D5291E7C1CC5ECD2001807B3 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Application/Global/Global.swift; sourceTree = "<group>"; };
+		D5291E7F1CC5EEB9001807B3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Application/Base/BaseViewController.swift; sourceTree = "<group>"; };
+		D5291E811CC5EFBD001807B3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Application/Controller/HomeViewController.swift; sourceTree = "<group>"; };
+		D5291E831CC5F714001807B3 /* Weater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Weater.swift; path = Application/Model/Weater.swift; sourceTree = "<group>"; };
+		D5291E871CC5FAB9001807B3 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = Application/Controller/FirstViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5291E4D1CC5E965001807B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC64257297E55502663104 /* Pods_DigitalDevcasts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F6CB79539F4CD8C9846547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE87839FCBB08F650635E687 /* Pods_DigitalDevcasts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74BE001C78FE06B97F3423F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				075E83933A6162E6AC9B7B61 /* Pods-DigitalDevcasts.debug.xcconfig */,
+				8C048BC6A273F9093B5ED965 /* Pods-DigitalDevcasts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5291E471CC5E965001807B3 = {
+			isa = PBXGroup;
+			children = (
+				D5291E521CC5E966001807B3 /* DigitalDevcasts */,
+				D5291E511CC5E965001807B3 /* Products */,
+				74BE001C78FE06B97F3423F4 /* Pods */,
+				67F6CB79539F4CD8C9846547 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5291E511CC5E965001807B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E501CC5E965001807B3 /* DigitalDevcasts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5291E521CC5E966001807B3 /* DigitalDevcasts */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E701CC5EB29001807B3 /* Assets */,
+				D5291E681CC5EAA0001807B3 /* Application */,
+				D5291E5D1CC5E966001807B3 /* Assets.xcassets */,
+				D5291E6F1CC5EB0D001807B3 /* Others */,
+			);
+			path = DigitalDevcasts;
+			sourceTree = "<group>";
+		};
+		D5291E681CC5EAA0001807B3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E7E1CC5EE89001807B3 /* Base */,
+				D5291E6C1CC5EACB001807B3 /* Core */,
+				D5291E7B1CC5ECAD001807B3 /* Global */,
+				D5291E691CC5EAAE001807B3 /* Controller */,
+				D5291E6A1CC5EAB7001807B3 /* Model */,
+				D5291E6B1CC5EABC001807B3 /* View */,
+				D5291E6E1CC5EAD8001807B3 /* Extension */,
+				D5291E6D1CC5EAD1001807B3 /* Library */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		D5291E691CC5EAAE001807B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E811CC5EFBD001807B3 /* HomeViewController.swift */,
+				D5291E871CC5FAB9001807B3 /* FirstViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D5291E6A1CC5EAB7001807B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E831CC5F714001807B3 /* Weater.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D5291E6B1CC5EABC001807B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D5291E6C1CC5EACB001807B3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E531CC5E966001807B3 /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D5291E6D1CC5EAD1001807B3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		D5291E6E1CC5EAD8001807B3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		D5291E6F1CC5EB0D001807B3 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E5F1CC5E966001807B3 /* LaunchScreen.storyboard */,
+				D5291E621CC5E966001807B3 /* Info.plist */,
+				D5291E5A1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		D5291E701CC5EB29001807B3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E711CC5EBD5001807B3 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D5291E711CC5EBD5001807B3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E721CC5EBDB001807B3 /* Gotham */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D5291E721CC5EBDB001807B3 /* Gotham */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E731CC5EBE8001807B3 /* gotham-rounded-bold.otf */,
+				D5291E741CC5EBE8001807B3 /* gotham-rounded-book.otf */,
+				D5291E751CC5EBE8001807B3 /* gotham-rounded-light.otf */,
+				D5291E761CC5EBE8001807B3 /* gotham-rounded-medium.otf */,
+			);
+			name = Gotham;
+			sourceTree = "<group>";
+		};
+		D5291E7B1CC5ECAD001807B3 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E7C1CC5ECD2001807B3 /* Global.swift */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		D5291E7E1CC5EE89001807B3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D5291E7F1CC5EEB9001807B3 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5291E4F1CC5E965001807B3 /* DigitalDevcasts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5291E651CC5E966001807B3 /* Build configuration list for PBXNativeTarget "DigitalDevcasts" */;
+			buildPhases = (
+				B7187BFF626BE39201B5CE82 /* Check Pods Manifest.lock */,
+				D5291E4C1CC5E965001807B3 /* Sources */,
+				D5291E4D1CC5E965001807B3 /* Frameworks */,
+				D5291E4E1CC5E965001807B3 /* Resources */,
+				734D1CDED1A057573B1D1D89 /* Embed Pods Frameworks */,
+				D7E3D0540EB492A2260C10DF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalDevcasts;
+			productName = DigitalDevcasts;
+			productReference = D5291E501CC5E965001807B3 /* DigitalDevcasts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5291E481CC5E965001807B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Digital Devcasts";
+				TargetAttributes = {
+					D5291E4F1CC5E965001807B3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MUM3QP6W58;
+					};
+				};
+			};
+			buildConfigurationList = D5291E4B1CC5E965001807B3 /* Build configuration list for PBXProject "DigitalDevcasts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5291E471CC5E965001807B3;
+			productRefGroup = D5291E511CC5E965001807B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5291E4F1CC5E965001807B3 /* DigitalDevcasts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5291E4E1CC5E965001807B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5291E781CC5EBE8001807B3 /* gotham-rounded-book.otf in Resources */,
+				D5291E611CC5E966001807B3 /* LaunchScreen.storyboard in Resources */,
+				D5291E7A1CC5EBE8001807B3 /* gotham-rounded-medium.otf in Resources */,
+				D5291E791CC5EBE8001807B3 /* gotham-rounded-light.otf in Resources */,
+				D5291E5E1CC5E966001807B3 /* Assets.xcassets in Resources */,
+				D5291E771CC5EBE8001807B3 /* gotham-rounded-bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		734D1CDED1A057573B1D1D89 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalDevcasts/Pods-DigitalDevcasts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7187BFF626BE39201B5CE82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E3D0540EB492A2260C10DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalDevcasts/Pods-DigitalDevcasts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5291E4C1CC5E965001807B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5291E821CC5EFBD001807B3 /* HomeViewController.swift in Sources */,
+				D5291E5C1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld in Sources */,
+				D5291E801CC5EEB9001807B3 /* BaseViewController.swift in Sources */,
+				D5291E841CC5F714001807B3 /* Weater.swift in Sources */,
+				D5291E541CC5E966001807B3 /* AppDelegate.swift in Sources */,
+				D5291E7D1CC5ECD2001807B3 /* Global.swift in Sources */,
+				D5291E881CC5FAB9001807B3 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5291E5F1CC5E966001807B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5291E601CC5E966001807B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5291E631CC5E966001807B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5291E641CC5E966001807B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5291E661CC5E966001807B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075E83933A6162E6AC9B7B61 /* Pods-DigitalDevcasts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DigitalDevcasts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.devcasts.DigitalDevcasts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5291E671CC5E966001807B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C048BC6A273F9093B5ED965 /* Pods-DigitalDevcasts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DigitalDevcasts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.devcasts.DigitalDevcasts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5291E4B1CC5E965001807B3 /* Build configuration list for PBXProject "DigitalDevcasts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5291E631CC5E966001807B3 /* Debug */,
+				D5291E641CC5E966001807B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5291E651CC5E966001807B3 /* Build configuration list for PBXNativeTarget "DigitalDevcasts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5291E661CC5E966001807B3 /* Debug */,
+				D5291E671CC5E966001807B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5291E5A1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5291E5B1CC5E966001807B3 /* DigitalDevcasts.xcdatamodel */,
+			);
+			currentVersion = D5291E5B1CC5E966001807B3 /* DigitalDevcasts.xcdatamodel */;
+			path = DigitalDevcasts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5291E481CC5E965001807B3 /* Project object */;
+}
