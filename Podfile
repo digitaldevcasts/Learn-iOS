@@ -7,5 +7,6 @@ target 'DigitalDevcasts' do
 	pod 'Alamofire', '<= 3.2.1'
 	pod 'SwiftyJSON', '<= 2.3.3'
 	pod 'AlamofireObjectMapper', '<= 3.0'
+#    pod 'EasyPeasy'
 end
 

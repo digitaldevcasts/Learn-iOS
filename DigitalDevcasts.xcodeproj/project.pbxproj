@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3DFC64257297E55502663104 /* Pods_DigitalDevcasts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87839FCBB08F650635E687 /* Pods_DigitalDevcasts.framework */; };
-		D5291E541CC5E966001807B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E531CC5E966001807B3 /* AppDelegate.swift */; };
 		D5291E5C1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5291E5A1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld */; };
 		D5291E5E1CC5E966001807B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5291E5D1CC5E966001807B3 /* Assets.xcassets */; };
 		D5291E611CC5E966001807B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5291E5F1CC5E966001807B3 /* LaunchScreen.storyboard */; };
@@ -16,11 +15,17 @@
 		D5291E781CC5EBE8001807B3 /* gotham-rounded-book.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5291E741CC5EBE8001807B3 /* gotham-rounded-book.otf */; };
 		D5291E791CC5EBE8001807B3 /* gotham-rounded-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5291E751CC5EBE8001807B3 /* gotham-rounded-light.otf */; };
 		D5291E7A1CC5EBE8001807B3 /* gotham-rounded-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5291E761CC5EBE8001807B3 /* gotham-rounded-medium.otf */; };
-		D5291E7D1CC5ECD2001807B3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E7C1CC5ECD2001807B3 /* Global.swift */; };
 		D5291E801CC5EEB9001807B3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E7F1CC5EEB9001807B3 /* BaseViewController.swift */; };
-		D5291E821CC5EFBD001807B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E811CC5EFBD001807B3 /* HomeViewController.swift */; };
-		D5291E841CC5F714001807B3 /* Weater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E831CC5F714001807B3 /* Weater.swift */; };
-		D5291E881CC5FAB9001807B3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5291E871CC5FAB9001807B3 /* FirstViewController.swift */; };
+		D54B798D1CC64784001C6A2A /* DDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B79871CC64784001C6A2A /* DDButton.swift */; };
+		D54B798E1CC64784001C6A2A /* DDButtonAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B79881CC64784001C6A2A /* DDButtonAction.swift */; };
+		D54B798F1CC64784001C6A2A /* DDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B79891CC64784001C6A2A /* DDLabel.swift */; };
+		D54B79901CC64784001C6A2A /* DDNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B798A1CC64784001C6A2A /* DDNavigation.swift */; };
+		D54B79911CC64784001C6A2A /* DDTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B798B1CC64784001C6A2A /* DDTable.swift */; };
+		D54B79921CC64784001C6A2A /* DDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B798C1CC64784001C6A2A /* DDTextField.swift */; };
+		D58357AD1CCBC5430007630C /* ModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58357AC1CCBC5430007630C /* ModelModels.swift */; };
+		D5F01FCA1CCB9A0200754574 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F01FC91CCB9A0200754574 /* Global.swift */; };
+		D5F01FCC1CCB9A6900754574 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F01FCB1CCB9A6900754574 /* HomeViewController.swift */; };
+		D5F01FCE1CCB9AAC00754574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F01FCD1CCB9AAC00754574 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +33,6 @@
 		8C048BC6A273F9093B5ED965 /* Pods-DigitalDevcasts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalDevcasts.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalDevcasts/Pods-DigitalDevcasts.release.xcconfig"; sourceTree = "<group>"; };
 		BE87839FCBB08F650635E687 /* Pods_DigitalDevcasts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalDevcasts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5291E501CC5E965001807B3 /* DigitalDevcasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalDevcasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5291E531CC5E966001807B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5291E5B1CC5E966001807B3 /* DigitalDevcasts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigitalDevcasts.xcdatamodel; sourceTree = "<group>"; };
 		D5291E5D1CC5E966001807B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5291E601CC5E966001807B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,11 +41,17 @@
 		D5291E741CC5EBE8001807B3 /* gotham-rounded-book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "gotham-rounded-book.otf"; path = "Assets/Fonts/gotham/gotham-rounded-book.otf"; sourceTree = "<group>"; };
 		D5291E751CC5EBE8001807B3 /* gotham-rounded-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "gotham-rounded-light.otf"; path = "Assets/Fonts/gotham/gotham-rounded-light.otf"; sourceTree = "<group>"; };
 		D5291E761CC5EBE8001807B3 /* gotham-rounded-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "gotham-rounded-medium.otf"; path = "Assets/Fonts/gotham/gotham-rounded-medium.otf"; sourceTree = "<group>"; };
-		D5291E7C1CC5ECD2001807B3 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Application/Global/Global.swift; sourceTree = "<group>"; };
 		D5291E7F1CC5EEB9001807B3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Application/Base/BaseViewController.swift; sourceTree = "<group>"; };
-		D5291E811CC5EFBD001807B3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Application/Controller/HomeViewController.swift; sourceTree = "<group>"; };
-		D5291E831CC5F714001807B3 /* Weater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Weater.swift; path = Application/Model/Weater.swift; sourceTree = "<group>"; };
-		D5291E871CC5FAB9001807B3 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = Application/Controller/FirstViewController.swift; sourceTree = "<group>"; };
+		D54B79871CC64784001C6A2A /* DDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDButton.swift; path = Application/Library/DigitalDevcasts/DDButton.swift; sourceTree = "<group>"; };
+		D54B79881CC64784001C6A2A /* DDButtonAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDButtonAction.swift; path = Application/Library/DigitalDevcasts/DDButtonAction.swift; sourceTree = "<group>"; };
+		D54B79891CC64784001C6A2A /* DDLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDLabel.swift; path = Application/Library/DigitalDevcasts/DDLabel.swift; sourceTree = "<group>"; };
+		D54B798A1CC64784001C6A2A /* DDNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDNavigation.swift; path = Application/Library/DigitalDevcasts/DDNavigation.swift; sourceTree = "<group>"; };
+		D54B798B1CC64784001C6A2A /* DDTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDTable.swift; path = Application/Library/DigitalDevcasts/DDTable.swift; sourceTree = "<group>"; };
+		D54B798C1CC64784001C6A2A /* DDTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDTextField.swift; path = Application/Library/DigitalDevcasts/DDTextField.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D58357AC1CCBC5430007630C /* ModelModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelModels.swift; path = Application/Model/ModelModels.swift; sourceTree = "<group>"; };
+		D5F01FC91CCB9A0200754574 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Application/Extension/Global.swift; sourceTree = "<group>"; };
+		D5F01FCB1CCB9A6900754574 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Application/View/Home/HomeViewController.swift; sourceTree = "<group>"; };
+		D5F01FCD1CCB9AAC00754574 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/Core/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +115,9 @@
 		D5291E681CC5EAA0001807B3 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				D5F01FC71CCB985500754574 /* APIManager */,
 				D5291E7E1CC5EE89001807B3 /* Base */,
 				D5291E6C1CC5EACB001807B3 /* Core */,
-				D5291E7B1CC5ECAD001807B3 /* Global */,
-				D5291E691CC5EAAE001807B3 /* Controller */,
 				D5291E6A1CC5EAB7001807B3 /* Model */,
 				D5291E6B1CC5EABC001807B3 /* View */,
 				D5291E6E1CC5EAD8001807B3 /* Extension */,
@@ -117,19 +126,10 @@
 			name = Application;
 			sourceTree = "<group>";
 		};
-		D5291E691CC5EAAE001807B3 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D5291E811CC5EFBD001807B3 /* HomeViewController.swift */,
-				D5291E871CC5FAB9001807B3 /* FirstViewController.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 		D5291E6A1CC5EAB7001807B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D5291E831CC5F714001807B3 /* Weater.swift */,
+				D58357AC1CCBC5430007630C /* ModelModels.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -137,6 +137,7 @@
 		D5291E6B1CC5EABC001807B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D5F01FC81CCB989600754574 /* Home */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -144,7 +145,7 @@
 		D5291E6C1CC5EACB001807B3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D5291E531CC5E966001807B3 /* AppDelegate.swift */,
+				D5F01FCD1CCB9AAC00754574 /* AppDelegate.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -152,6 +153,7 @@
 		D5291E6D1CC5EAD1001807B3 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				D54B79861CC64776001C6A2A /* DigitalDevcasts */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -159,6 +161,7 @@
 		D5291E6E1CC5EAD8001807B3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D5F01FC91CCB9A0200754574 /* Global.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -200,20 +203,40 @@
 			name = Gotham;
 			sourceTree = "<group>";
 		};
-		D5291E7B1CC5ECAD001807B3 /* Global */ = {
-			isa = PBXGroup;
-			children = (
-				D5291E7C1CC5ECD2001807B3 /* Global.swift */,
-			);
-			name = Global;
-			sourceTree = "<group>";
-		};
 		D5291E7E1CC5EE89001807B3 /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				D5291E7F1CC5EEB9001807B3 /* BaseViewController.swift */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		D54B79861CC64776001C6A2A /* DigitalDevcasts */ = {
+			isa = PBXGroup;
+			children = (
+				D54B79871CC64784001C6A2A /* DDButton.swift */,
+				D54B79881CC64784001C6A2A /* DDButtonAction.swift */,
+				D54B79891CC64784001C6A2A /* DDLabel.swift */,
+				D54B798A1CC64784001C6A2A /* DDNavigation.swift */,
+				D54B798B1CC64784001C6A2A /* DDTable.swift */,
+				D54B798C1CC64784001C6A2A /* DDTextField.swift */,
+			);
+			name = DigitalDevcasts;
+			sourceTree = "<group>";
+		};
+		D5F01FC71CCB985500754574 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		D5F01FC81CCB989600754574 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D5F01FCB1CCB9A6900754574 /* HomeViewController.swift */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,13 +365,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5291E821CC5EFBD001807B3 /* HomeViewController.swift in Sources */,
+				D5F01FCE1CCB9AAC00754574 /* AppDelegate.swift in Sources */,
+				D54B798E1CC64784001C6A2A /* DDButtonAction.swift in Sources */,
 				D5291E5C1CC5E966001807B3 /* DigitalDevcasts.xcdatamodeld in Sources */,
+				D54B79921CC64784001C6A2A /* DDTextField.swift in Sources */,
 				D5291E801CC5EEB9001807B3 /* BaseViewController.swift in Sources */,
-				D5291E841CC5F714001807B3 /* Weater.swift in Sources */,
-				D5291E541CC5E966001807B3 /* AppDelegate.swift in Sources */,
-				D5291E7D1CC5ECD2001807B3 /* Global.swift in Sources */,
-				D5291E881CC5FAB9001807B3 /* FirstViewController.swift in Sources */,
+				D58357AD1CCBC5430007630C /* ModelModels.swift in Sources */,
+				D54B79911CC64784001C6A2A /* DDTable.swift in Sources */,
+				D54B798F1CC64784001C6A2A /* DDLabel.swift in Sources */,
+				D5F01FCA1CCB9A0200754574 /* Global.swift in Sources */,
+				D5F01FCC1CCB9A6900754574 /* HomeViewController.swift in Sources */,
+				D54B798D1CC64784001C6A2A /* DDButton.swift in Sources */,
+				D54B79901CC64784001C6A2A /* DDNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
